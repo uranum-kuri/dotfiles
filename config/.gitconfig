@@ -1,0 +1,20 @@
+[ghq]
+	root = ~/repos
+[pager]
+	diff = delta
+	log = delta
+	reflog = delta
+	show = delta
+[delta]
+	line-numbers = true
+	side-by-side = true
+	plus-style = green bold
+	minus-style = red bold
+
+[interactive]
+	diffFilter = delta --color-only
+
+[user]
+	name = uranum-kuri
+	email = uranum.kuri@gmail.com
+
