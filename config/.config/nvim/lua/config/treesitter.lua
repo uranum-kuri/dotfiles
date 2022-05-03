@@ -10,7 +10,7 @@ require("nvim-treesitter.configs").setup({
     enable = true,
     enable_autocmd = false
   },
-  rainboiw = {
+  rainbow = {
     enable = true
   },
   matchup = {
